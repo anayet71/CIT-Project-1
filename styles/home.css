@@ -325,6 +325,7 @@ nav ul li a {
 .blog-container{
     margin: 0 auto;
     width: 1200px;
+    padding-bottom: 70px;
 }
 .blog-title{
     padding: 40px 0;
@@ -358,9 +359,35 @@ nav ul li a {
     margin: 0 auto;
     color: rgb(255, 255, 255);
 }
+.footer-text{
+    display: flex;
+    gap: 100px;
+    padding-top: 60px;
+}
+.footer-company-details{
+    width: 60%;
+    padding-bottom: 80px;
+}
 .contacts{
     display: flex;
     padding: 16px 130px 16px 20px;
     background-color: #FCD980;
     color: black;
+    gap: 50px;
+}
+
+.social-icon{
+    padding-right: 25px;
+    padding-top: 110px;
+}
+.copyright{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.copyright-home{
+    display: flex;
+    gap: 60px;
 }
