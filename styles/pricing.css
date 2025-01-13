@@ -46,3 +46,143 @@
     padding: 16px 40px;
     border-radius: 41px;
 }
+
+/* Our pricing plan start */
+
+.pricing-plans-container{
+    width: 1280px;
+    margin: 0 auto;
+
+}
+.pricing-plans-title-container{
+    text-align: center;
+    width: 45%;
+    margin: 0 auto;
+    padding: 80px 0px;
+}
+.pricing-title{
+    padding-bottom: 20px;
+}
+.pricing-details{
+    color: rgb(103, 104, 123);
+    font-weight: 500;
+    line-height: 1.5;
+}
+.pricing-list-container{
+    display: flex;
+    gap: 35px;
+}
+.pricing-list-1{
+    background-color: rgba(244, 246, 252, 1);
+    padding: 60px 40px;
+    border-radius: 12px;
+    flex: 1;
+}
+.pricing-list-1-text h2{
+    padding-bottom: 20px;
+}
+.pricing-list-1-text h2 span{
+    color: rgba(36, 5, 242, 1);
+    font-weight: 400;
+    font-size: 12px;
+    padding: 0px 0px 0px 5px;
+    /* margin: 0px 0px 50px 5px; */
+
+}
+
+.pricing-list-1-text h4{
+    padding-bottom: 15px;
+}
+.pricing-list-1-text p{
+    color:  rgb(123, 123, 123);
+}
+.pricing-list-1-notes{
+    padding-top: 70px;
+}
+.arrow{
+    display: flex;
+    gap: 12px;
+    padding-bottom: 20px;
+    align-items: center;
+
+}
+.arrow-gray{
+    display: flex;
+    gap: 12px;
+    padding-bottom: 20px;
+    align-items: center;
+    color: gray;
+}
+.pricing-list-1 button{
+    padding: 16px 75px;
+    color: white;
+    border-radius: 35px;
+    background-color: black;
+}
+
+.pricing-list-2{
+    background-color: #1C1E53;
+    padding: 60px 40px;
+    border-radius: 12px;
+    color: white;
+    flex: 1;
+}
+.pricing-list-2 h2 span{
+    color: #FCD980;
+}
+.pricing-list-2 button{
+    background-color: #FCD980;
+    padding: 16px 75px;
+    border-radius: 35px;
+}
+.btn{
+    padding-top: 75px;
+    text-align: center;
+}
+/* Our pricing plan end */
+
+/* Footer start */
+
+.footer{
+    background-color:#1C1E53 ;
+    margin-top: 800px;
+}
+.footer-sub-container{
+    width: 1280px;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+}
+.footer-text{
+    display: flex;
+    gap: 100px;
+    padding-top: 60px;
+}
+.footer-company-details{
+    width: 60%;
+    padding-bottom: 80px;
+}
+.contacts{
+    display: flex;
+    padding: 16px 130px 16px 20px;
+    background-color: #FCD980;
+    color: black;
+    gap: 50px;
+}
+
+.social-icon{
+    padding-right: 25px;
+    padding-top: 110px;
+}
+.copyright{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.copyright-home{
+    display: flex;
+    gap: 60px;
+}
+
+/* Footer end */
