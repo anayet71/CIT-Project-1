@@ -1,38 +1,45 @@
-*{
+* {
     margin: 0;
 }
-.inter{
-  font-family: "Inter", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+
+.inter {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
-.main{
-    width: 1400px;
+
+.main {
+    width: 1600px;
     margin: 0 auto;
 }
-.navbar-container{
+
+.navbar-container {
     background-color: #1C1E53;
 }
-.navbar{
+
+.navbar {
     color: white;
-    width: 1200px;
-    margin:0 auto ;
+    width: 1280px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 15px;
 }
-.navbar-link{
+
+.navbar-link {
     display: flex;
     gap: 50px;
     align-items: center;
 }
-.navbar-link div a{
+
+.navbar-link div a {
     text-decoration: none;
     color: white;
 }
-.navbar-contact{
+
+.navbar-contact {
     background-color: transparent;
     color: white;
     border: 3px solid rgba(244, 246, 252, 0.2);
@@ -41,48 +48,208 @@
 }
 
 /* design-solve-container */
-.design-solve-container{
+.design-solve-container {
     display: flex;
     padding-top: 150px;
     padding-bottom: 70px;
     gap: 140px;
-    width: 1200px;
-    margin: 0 auto;    
+    width: 1280px;
+    margin: 0 auto;
 }
-.design-title{
+
+.design-title {
     font-size: 60px;
     padding-top: 20px
 }
-.design-details{
+
+.design-details {
     color: #74759a;
     width: 90%;
     padding-top: 20px;
 }
-.goal-container{
-    background-color:rgba(244, 245, 245, 1) ;
-    padding: 80px 100px 80px 80px;
+
+.goal-container {
+    background-color: #EEF4FA;
+    width: 1280px;
+    margin: 0 auto;
 }
-.goal{
+.goal-sub-container{
+    padding: 80px;  
+}
+.goal {
     display: flex;
     gap: 60px;
-    padding-top: 15px;
 }
-.man-pic{
-    width: 1400px;
+.man-pic-div {
+    width: 1280px;
+    height: 340px;
+    margin: 0 auto;
+}
+.man-pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
- /* Our process start */
-.process{
-    padding-top: 120px;
+/* Our process start */
+.process {
+    padding: 120px 0px;
     text-align: center;
+    width: 1280px;
+    margin: 0 auto;
+
 }
-.process-all{
+
+.process-all {
     display: flex;
     text-align: left;
     padding-top: 50px;
+    gap: 20px;
 }
-.process-one > h4{
+
+.process-one>h4 {
     padding: 15px 0;
 }
 
- /* Our process end */
+/* Our process end */
+
+/* Inspire start */
+.inspire-container {
+    background-color: #EEF4FA;
+}
+
+.inspire-sub-container {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 90px 0px;
+}
+
+.inspire-one {
+    display: flex;
+    gap: 100px;
+}
+
+.inspire-two {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 100px;
+    padding-top: 100px;
+}
+
+.inspire-title {
+    padding: 20px 0px;
+}
+
+.inspire-details {
+    color: rgb(99, 99, 99);
+}
+
+/* Inspire end */
+
+/* Benefit start */
+.benefit-container{
+    width: 1280px;
+    margin: 0 auto;
+}
+.benefit-text-title {
+    font-size: 50px;
+    padding: 110px 0px 60px 0px;
+    text-align: center;
+}
+
+.benefit-all {
+    display: flex;
+    gap: 30px;
+}
+
+.benefit-sub-title {
+    padding: 15px 0px;
+
+}
+
+.benefit-sub-1 {
+    padding: 48px;
+    background-color: rgb(238, 244, 250)
+}
+
+.problem-sub-details {
+    color: rgb(101, 103, 115);
+}
+
+.benefit-img {
+    padding: 60px 0px 120px 0px;
+}
+.benefit-img{
+    width: 100%;
+}
+/* Benefit end */
+
+/* Team start  */
+.team-container{
+    background-color: #EEF4FA;
+    padding: 110px 0px 60px 0px;
+}
+.team-sub-container{
+    width: 1280px;
+    margin: 0 auto;
+}
+.team-title{
+    text-align: center;
+}
+.team-members{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 0px;
+}
+.team-member{
+    text-align: center;
+    background-color: white;
+    padding: 48px 64px ;
+}
+.team-member h5{
+    padding: 15px;
+}
+/* Team end  */
+
+/* Footer start */
+.footer{
+    background-color:#1C1E53 ;
+}
+.footer-sub-container{
+    width: 1280px;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+}
+.footer-text{
+    display: flex;
+    gap: 100px;
+    padding-top: 60px;
+}
+.footer-company-details{
+    width: 60%;
+    padding-bottom: 80px;
+}
+.contacts{
+    display: flex;
+    padding: 16px 130px 16px 20px;
+    background-color: #FCD980;
+    color: black;
+    gap: 50px;
+}
+
+.social-icon{
+    padding-right: 25px;
+    padding-top: 110px;
+}
+.copyright{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.copyright-home{
+    display: flex;
+    gap: 60px;
+}
+/* Footer end */

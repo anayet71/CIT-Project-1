@@ -12,7 +12,7 @@
 }
 
 .main-1 {
-    width: 1400px;
+    width: 1600px;
     margin: 0 auto;
 }
 
@@ -22,7 +22,7 @@
 
 header {
     margin: 0 auto;
-    width: 1200px;
+    width: 1280px;
     padding-top: 30px;
     padding-bottom: 120px;
 }
@@ -35,7 +35,7 @@ header {
 
 nav {
     margin: 0 auto;
-    width: 1200px;
+    width: 1280px;
     display: flex;
     justify-content: space-between;
     padding-bottom: 120px;
@@ -135,7 +135,7 @@ nav ul li a {
     gap: 140px;
     padding: 120px 0px;
     margin: 0 auto;
-    width: 1200px;
+    width: 1280px;
 }
 
 .work-more {
@@ -165,7 +165,7 @@ nav ul li a {
 .our-project-container {
     padding-top: 90px;
     margin: 0 auto;
-    width: 1200px;
+    width: 1280px;
 }
 .project-text {
     display: flex;
@@ -201,6 +201,7 @@ nav ul li a {
 }
 .project-all-img{
     display: flex;
+    gap: 470px;
     
 }
 .project-imgOne {
@@ -241,9 +242,33 @@ nav ul li a {
 .project-img-2{
     display: flex;
     position: static;
-    overflow: hidden;
+    
+}
+.project-img-two{
+    position: absolute;
+}
+.project-img-two-text{
+    position: relative;
+    right: -63px;
+    top: 130px;
+}
+.project-img-two-title{
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 20px;
 }
 
+.project-details-2{
+    color: #FCD980;
+
+}
+.project-img-3{
+
+    position: relative;
+    top: 306px;
+    right: 94px;
+}
 /* Problem container start */
 .problem-container {
     padding: 100px 0px;
@@ -253,7 +278,7 @@ nav ul li a {
 }
 .problem-container-2{
     margin: 0 auto;
-    width: 1200px;
+    width: 1280px;
 }
 .problem-title{
     font-size: 40px;
@@ -287,7 +312,7 @@ nav ul li a {
 }
 .client-container-2{
     margin: 0 auto;
-    width: 1200px;
+    width: 1280px;
     display: flex;
     gap: 100px;
     padding: 100px 0px;
@@ -324,7 +349,7 @@ nav ul li a {
 }
 .blog-container{
     margin: 0 auto;
-    width: 1200px;
+    width: 1280px;
     padding-bottom: 70px;
 }
 .blog-title{
@@ -355,7 +380,7 @@ nav ul li a {
     background-color:#1C1E53 ;
 }
 .footer-sub-container{
-    width: 1200px;
+    width: 1280px;
     margin: 0 auto;
     color: rgb(255, 255, 255);
 }
@@ -381,7 +406,7 @@ nav ul li a {
     padding-top: 110px;
 }
 .copyright{
-    width: 1200px;
+    width: 1280px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;

@@ -1,0 +1,268 @@
+
+
+.inter{
+    font-family: "Inter";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  * {
+      margin: 0;
+  
+  }
+
+  .main-1 {
+      width: 1600px;
+      margin: 0 auto;
+  }
+  
+  .main-2 {
+      background-color: #1C1E53;
+  }
+  
+  header {
+      margin: 0 auto;
+      width: 1280px;
+      padding-top: 30px;
+      padding-bottom: 120px;
+  }
+  
+  .poppins-thin {
+      font-family: "Poppins", serif;
+      font-weight: 300;
+      font-style: normal;
+  }
+  
+  nav {
+      margin: 0 auto;
+      width: 1280px;
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 120px;
+      align-items: center;
+  }
+  
+  .navbar {
+      display: flex;
+      gap: 50px;
+      align-items: center;
+  }
+  
+  nav ul {
+      display: flex;
+      gap: 48px;
+  }
+  
+  nav ul li {
+      list-style: none;
+  }
+  
+  nav ul li a {
+      text-decoration: none;
+      color: white;
+  }
+  
+  .contact {
+      padding: 14px 28px;
+      background-color: transparent;
+      color: white;
+      border-radius: 18px;
+      border: 1px solid white;
+  }
+  
+  .banner {
+      padding-bottom: 100px;
+  }
+  
+  
+  .banner_details {
+      color: rgb(143, 156, 175);
+      padding-bottom: 40px;
+  }
+  
+  .banner {
+      display: flex;
+      gap: 70px;
+  }
+  
+  .banner-text {
+      color: white;
+  }
+  
+  .banner-text h1 {
+      font-size: 54px;
+      padding-bottom: 50px;
+  }
+  
+  .btn-option {
+      display: flex;
+      align-items: center;
+      padding-top: 45px;
+      gap: 20px;
+  }
+  
+  .btn-1 {
+      background-color: #FCD980;
+      padding: 16px 50px;
+      border-radius: 40px;
+  }
+  
+  .btn-2 {
+      display: flex;
+      gap: 10px;
+      background-color: transparent;
+      border: none;
+      padding-top: 16px;
+  }
+  
+  .btn-text {
+      color: white;
+  }
+  
+  .btn-img {
+      width: 20px;
+      color: white;
+      filter: invert(100%);
+      
+  }
+  .benefit-container{
+    margin: 0 auto;
+    width: 1280px;
+  }
+  .benefit-img {
+    padding: 60px 0px 120px 0px;
+}
+.benefit-text-title {
+    font-size: 50px;
+    padding: 80px 0px 60px 0px;
+    text-align: center;
+}
+.benefit-all {
+    display: flex;
+    gap: 30px;
+}
+
+.benefit-sub-title {
+    padding: 15px 0px;
+
+}
+
+.benefit-sub-1 {
+    padding: 48px;
+    background-color: rgb(238, 244, 250)
+}
+
+.problem-sub-details {
+    color: rgb(101, 103, 115);
+}
+
+.benefit-img {
+    padding: 60px 0px 120px 0px;
+}
+.benefit-img{
+    width: 100%;
+}
+
+/* Inspire start */
+.inspire-container {
+   
+}
+
+.inspire-sub-container {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 120px 0px;
+}
+
+.inspire-one {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.inspire-two {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 100px;
+    padding: 80px 0px;
+    align-items: center;
+}
+
+.inspire-title {
+    padding: 20px 0px;
+}
+
+.inspire-details {
+    color: rgb(99, 99, 99);
+}
+
+
+.inspire-container-2{
+    background-color: #EEF4FA;
+}
+.inspire-sub-container-2{
+    width: 1280px;
+    margin: 0 auto;
+    padding: 40px 0px;
+}
+.inspire-container-3{
+
+}
+.inspire-sub-container-3{
+    width: 1280px;
+    margin: 0 auto;
+    padding: 80px 0px;
+}
+.inspire-container-4{
+    background-color: rgba(252, 217, 128, 0.1);
+}
+.inspire-sub-container-4{
+    width: 1280px;
+    margin: 0 auto;
+
+}
+/* Inspire end */
+
+
+/* Footer start */
+.footer{
+    background-color:#1C1E53 ;
+}
+.footer-sub-container{
+    width: 1280px;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+}
+.footer-text{
+    display: flex;
+    gap: 100px;
+    padding-top: 60px;
+}
+.footer-company-details{
+    width: 60%;
+    padding-bottom: 80px;
+}
+.contacts{
+    display: flex;
+    padding: 16px 130px 16px 20px;
+    background-color: #FCD980;
+    color: black;
+    gap: 50px;
+}
+
+.social-icon{
+    padding-right: 25px;
+    padding-top: 110px;
+}
+.copyright{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.copyright-home{
+    display: flex;
+    gap: 60px;
+}
+/* Footer end */
